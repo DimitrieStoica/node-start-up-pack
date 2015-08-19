@@ -4,7 +4,7 @@
   "description": "This is a simple start-up pack to help you start developing Node.JS",
   "main": "server.js",
   "scripts": {
-    "test": "npm test",
+    "test": "mocha --recursive test",
     "start": "node server.js"
   },
   "repository": {
@@ -19,6 +19,8 @@
   "dependencies": {
     "express": "~4.13.3",
     "body-parser": "~1.13.3",
-    "bole": "~2.0.0"
+    "bole": "~2.0.0",
+    "mocha": "~2.2.5",
+    "supertest": "~1.0.1"
   }
 }

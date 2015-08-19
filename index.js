@@ -8,6 +8,10 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 app.disable('etag');
 
+app.get('/', function(req, res){
+  res.send('Hello there ! \n');
+});
+
 app.use(function(req, res, next) {
   var err = new Error('Not found');
   err.status = 404;
