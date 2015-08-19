@@ -1,0 +1,24 @@
+{
+  "name": "startup-pack",
+  "version": "0.0.0",
+  "description": "This is a simple start-up pack to help you start developing Node.JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DimitrieStoica/node-start-up-pack.git"
+  },
+  "author": "Alex Stoica",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/DimitrieStoica/node-start-up-pack/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "body-parser": "~1.13.3",
+    "bole": "~2.0.0"
+  }
+}
