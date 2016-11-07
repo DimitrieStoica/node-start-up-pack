@@ -13,5 +13,8 @@ Install Docker
    ```sh
 https://docs.docker.com/installation/ubuntulinux/#installing-docker-on-ubuntu
 ```
+
 Install Docker Compose
    ```sh
+https://docs.docker.com/compose/install/
+```
